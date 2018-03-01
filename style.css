@@ -16,16 +16,14 @@ h3{
   text-align: center;
   color: white;
   font-weight: bold;
+  text-transform: uppercase;
+
 }
 
-p{
-  display: inline-block;
+ p{
   text-align: center;
-  width: 30%;
   color: white;
   font-size: 18px;
-  margin: 2%;
-
 }
 
 /* FIRST BLOCK */
@@ -96,6 +94,7 @@ p{
   text-align: center;
 }
 
+
 [color="white"]{
   color:white;
 }
@@ -118,6 +117,7 @@ button{
 
 .contact-me{
   margin-left: 20%;
+  padding-bottom: 5%;
 }
 input{
   display: block;
@@ -129,5 +129,41 @@ input{
 }
 
 [position="left"]{
-  margin-left: 20%;
+  margin-left: 0;
+}
+
+[background="antracite"]{
+  background-color: #2c3e50;
+}
+
+address{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.icon-container{
+  text-align: center;
+}
+.fab{
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 5.25rem;
+  height: 5.25rem;
+  font-size: 3.25rem;
+  line-height: 2rem;
+  padding: 2%;
+  margin: 1%;
+  text-align: center;
+}
+
+[background="dark-blue2"]{
+  background-color: #1a252f;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  padding: 3%;
 }
