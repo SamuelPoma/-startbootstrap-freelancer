@@ -39,13 +39,14 @@ h3{
 
 .nav-content{
   display: inline-block;
+  padding: 20px;
 }
 .nav-content.big{
   color: white;
   font-size: 28px;
   font-weight: bolder;
   text-transform: uppercase;
-  padding: 10px;
+  vertical-align: middle
 }
 
 .nav-content.small{
@@ -53,9 +54,35 @@ h3{
   font-size: 20px;
   font-weight: bolder;
   text-transform: uppercase;
+  vertical-align: middle;
   position: absolute;
-  right: 5%;
-  bottom: 25%;
+  right: 0%;
+}
+
+.item-nav{
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+.hamburgher-menu{
+  display: none;
+  color: white;
+  font-weight: bold;
+  background-color: #18bc9c;
+  border-radius: 5px;
+  padding: 1.5%;
+  position: absolute;
+  right: 0%;
+  top: 25%
+}
+
+
+.fas.fa-bars{
+  /* display: none; */
+  /* font-size: 36px; */
+  vertical-align: middle;
 }
 
 /*SECOND BLOCK  */
@@ -166,4 +193,28 @@ footer{
   color: white;
   text-align: center;
   padding: 3%;
+}
+
+.col-md-4{
+  padding-top: 3%;
+
+}
+
+@media screen and (max-width: 768px){
+  .nav-content.small{
+    display: none;
+  }
+  .hamburgher-menu{
+    display: inline-block;
+    position: absolute;
+  }
+
+  .nav-content.big{
+    font-size: 14px;
+  }
+
+ .title-header{
+    font-size: 38px;
+  }
+
 }
